@@ -1,1 +1,105 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+  <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="indexM.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Wyszukiwarka</a>
+      </li>     <li class="nav-item">
+        <a class="nav-link" href="#">Katalog</a>
+      </li>     <li class="nav-item">
+        <a class="nav-link" href="#">Radio</a>
+      </li>     <li class="nav-item">
+        <a class="nav-link" href="#">Kontakt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Utwórz konto</a>
+      </li>
+      <li class="nav-item">
+
+        <a class="nav-link" href="login.html">Zaloguj się</i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<!--- Login -->
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+
+                    <!-- Input -->
+                    <div class="card rounded-0">
+                        <div class="card-header">
+                            <h4 class="mb-0">Zaloguj się</h4>
+                        </div>
+                        <div class="card-body">
+                            <form class="form" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
+                                <div class="form-group">
+                                    <label for="uname1">Nazwa użytkownika</label>
+                                    <input type="text" class="form-control form-control-lg rounded-0" name="uname1" id="uname1" required="">
+                                    <div class="invalid-feedback">Oops, you missed this one.</div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Hasło</label>
+                                    <input type="password" class="form-control form-control-lg rounded-0" id="pwd1" required="" autocomplete="new-password">
+                                    <div class="invalid-feedback">Enter your password too!</div>
+                                </div>                                                            
+                              <button type="submit" class="btn btn-success btn-md float-right" id="btnLogin">Login
+                              </button>
+                            </form>
+                        </div>
+                    </div>
+                            </div>
+            </div>
+          </div>
+      </div>
+</div>
+
+
+<!--- Image Slider -->
+
+
+
+<!-- End of a page -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
