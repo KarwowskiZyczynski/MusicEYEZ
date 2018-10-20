@@ -68,9 +68,11 @@ figure {
     padding: 1rem;
 }
 
-
-
-
+/*--- Gif size fix --*/
+img.animated-gif{
+  width: 10%;
+  height: auto;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
