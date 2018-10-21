@@ -1,4 +1,4 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+﻿<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
@@ -97,53 +97,94 @@
 </div>
 </nav>
 
-<!-- Kontakt -->
+<!--- Login -->
 
 <div class="container-fluid">
   <div class="row welcome text-center">
     <div class="col-12">
-      <h1 class="display-7">Kontakt</h1>
+      <h1 class="display-7">Rejestracja</h1>
     </div>
     <hr>
   </div>
 </div>
-
-<!--- Cards -->
-<div class="container-fluid center-block">
-  <div class="row center-block">
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="img/team1.png">
-        <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Był renesansowym polihistorem, poza astronomią zajmował się również matematyką, prawem, ekonomią, strategią wojskową, astrologią, był także lekarzem oraz tłumaczem.</p>
-          <p class="card-text"> 
-            Potężna wichura łamiąc duże drzewa
-          </p>
-          <p>
-            <i class="fa fa-envelope" style="font-size:100%;"></i><a href="#"> Napisz e-mail</a>
-          </p>
-         
-        </div>  
-      </div>
-    </div>
- <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="img/team1.png">
-        <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Był renesansowym polihistorem, poza astronomią zajmował się również matematyką, prawem, ekonomią, strategią wojskową, astrologią, był także lekarzem oraz tłumaczem.</p>
-          <p class="card-text"> 
-            Trzciną zaledwie tylko kołysze
-          </p>
-          <p>
-            <i class="fa fa-envelope" style="font-size:100%;"></i><a href="#"> Napisz e-mail</a>
-          </p>
-          
-        </div>  
-      </div>
-    </div>
- </div>  
+          <div class="row center-block">
+            <div class="col-md-3 field-label-responsive">
+                <label for="email">Adres e-mail</label>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-at"></i></div>
+                        <input type="text" name="email" class="form-control" id="email"
+                               placeholder="Adres e-mail" required autofocus>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 field-label-responsive">
+                <label for="password">Hasło</label>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group has-danger">
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-key"></i></div>
+                        <input type="password" name="password" class="form-control" id="password"
+                               placeholder="Hasło" required>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 field-label-responsive">
+                <label for="password">Powtórz hasło</label>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon" style="width: 2.6rem">
+                            <i class="fa fa-repeat"></i>
+                        </div>
+                        <input type="password" name="password-confirmation" class="form-control"
+                               id="password-confirm" placeholder="Hasło" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-success"><i class="fa fa-user-plus"></i> Register</button>
+            </div>
+        </div>
+    </form>
 </div>
 </body>
+
+
+<!--- Image Slider -->
+
+
+
+<!-- End of a page -->
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
